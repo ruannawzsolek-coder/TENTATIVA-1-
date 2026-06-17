@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-Engine AI - Desenvolvimento de Sistemas de Baixo Nível e Inteligência Artificial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="accessibility-bar" role="toolbar" aria-label="Ferramentas de Acessibilidade">
+        <button id="btn-font-dec" aria-label="Diminuir texto">A-</button>
+        <button id="btn-font-inc" aria-label="Aumentar texto">A+</button>
+        <button id="btn-contrast" aria-label="Alternar alto contraste"><i class="fa-solid to-contrast fa-eye"></i> Alto Contraste</button>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fa-solid fa-code icon"></i> C-<span>Engine</span>
+            </div>
+            <nav class="main-nav" aria-label="Navegação Principal">
+                <a href="#beneficios">Performance</a>
+                <a href="#solucoes">Arquitetura</a>
+                <a href="#depoimentos">Casos de Uso</a>
+                <a href="#faq">Perguntas</a>
+            </nav>
+            <a href="#cta-section" class="btn btn-primary nav-btn">Falar com um Arquiteto</a>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Evolução em Baixo Nível</span>
+                <h1>O poder do código em C moldando o futuro da Inteligência Artificial</h1>
+                <p>Desenvolva algoritmos inovadores, sistemas robustos e modelos de aprendizado de máquina com a máxima eficiência de hardware e velocidade que apenas a linguagem C proporciona.</p>
+                <div class="hero-actions">
+                    <a href="#cta-section" class="btn btn-primary">Otimizar Meus Sistemas</a>
+                    <a href="#solucoes" class="btn btn-secondary">Ver Infraestrutura</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-image-placeholder">
+                    <i class="fa-solid fa-microchip icon-hero"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que Construir Core de IA e Sistemas em C?</h2>
+                <p>A inteligência artificial avançada exige o máximo controle sobre a memória e o processamento de dados massivos.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fa-solid fa-bolt icon"></i></div>
+                    <h3>Velocidade Bruta</h3>
+                    <p>Execute redes neurais complexas e processamento de matrizes sem o overhead de linguagens interpretadas tradicionais.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fa-solid fa-memory icon"></i></div>
+                    <h3>Gerenciamento de Memória</h3>
+                    <p>Controle absoluto sobre a alocação de ponteiros para garantir que algoritmos de previsão usem o hardware no limite físico.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon"><i class="fa-solid fa-gears icon"></i></div>
+                    <h3>Automação de Infraestrutura</h3>
+                    <p>Crie a espinha dorsal de sistemas embarcados inteligentes e integrados que interagem diretamente com o silício.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solucoes" class="carousel-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Aplicações de Alta Performance em C</h2>
+                <p>Explore as frentes onde o código complexo e a engenharia de software transformam o mundo digital.</p>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel-track" id="carousel-track">
+                    </div>
+                <div class="carousel-controls">
+                    <button id="carousel-prev" aria-label="Slide anterior"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button id="carousel-next" aria-label="Próximo slide"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Quem Lidera a Inovação Digital Recomenda</h2>
+                <p>Grandes engenheiros de software que escolheram a performance definitiva para mover sistemas globais.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Reescrevemos nosso core de inferência estatística e ML de Python para C. O tempo de resposta caiu de milissegundos para microssegundos, permitindo automação preditiva em tempo real."</p>
+                    <div class="author">
+                        <strong>Arthur Villaça</strong>
+                        <span>CTO - TechTensor Enterprise</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"A previsibilidade que a linguagem C oferece no controle de hardware garantiu a estabilidade dos nossos servidores de IA sob cargas de trabalho extremas."</p>
+                    <div class="author">
+                        <strong>Juliana K. Schmidt</strong>
+                        <span>Diretora de Engenharia de Sistemas - CoreGrid</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre a viabilidade e a arquitetura de projetos de IA desenvolvidos em C.</p>
+            </div>
+            <div class="accordion-container" id="faq-accordion">
+                </div>
+        </div>
+    </section>
+
+    <section id="cta-section" class="cta-section">
+        <div class="container cta-container">
+            <h2>Pronto para criar sistemas rápidos de verdade?</h2>
+            <p>Conecte seus desafios de automação e IA à robustez do desenvolvimento em C com nossa equipe de engenharia especialista.</p>
+            <form class="cta-form" id="landing-form" onsubmit="event.preventDefault(); alert('Parabéns pela iniciativa técnica! Nossa equipe de engenharia entrará em contato nas próximas 2 horas.');">
+                <input type="text" placeholder="Seu nome completo" required aria-label="Nome completo">
+                <input type="email" placeholder="Seu e-mail corporativo" required aria-label="E-mail profissional">
+                <input type="tel" placeholder="Seu telefone com DDD" required aria-label="Número de telefone">
+                <button type="submit" class="btn btn-primary">Iniciar Diagnóstico de Arquitetura</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 C-Engine Software Avançado. Todos os direitos reservados.</p>
+            <p>Construído com os pilares de acessibilidade e engenharia limpa.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
